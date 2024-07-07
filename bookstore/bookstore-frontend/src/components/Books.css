@@ -1,0 +1,38 @@
+/* Books.css */
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .book-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .book-card p {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .book-card .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-card .btn:hover {
+    background-color: #0056b3;
+  }
+  

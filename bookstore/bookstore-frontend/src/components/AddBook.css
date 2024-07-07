@@ -1,0 +1,31 @@
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.book-item {
+  background: #333;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  text-align: center;
+  width: 150px;
+  color:whitesmoke;
+}
+
+.book-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+}
+.book-item h3 {
+  margin: 10px 0;
+}
+
+.book-item p {
+  margin: 5px 0;
+}

@@ -1,0 +1,18 @@
+/* Home.css */
+.App-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .App-content h2 {
+    font-size: 5em;
+    color: #333;
+  }
+  
+  .App-content p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #666;
+  }
+  

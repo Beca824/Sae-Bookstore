@@ -1,0 +1,50 @@
+body {
+  background-color: #000; /* Set background color to black */
+  color: #fff; /* Set text color to white for better contrast */
+  margin: 5;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+p {
+  color: #ccc;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.book-item {
+  background: #333;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  text-align: center;
+  width: 150px;
+  color: #fff;
+}
+
+.book-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+}
+
+.book-item h3 {
+  margin: 10px 0;
+}

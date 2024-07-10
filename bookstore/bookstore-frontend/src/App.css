@@ -23,7 +23,6 @@ body {
 .App-header {
   background-color: #282c34;
   padding: 20px;
-  min-height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

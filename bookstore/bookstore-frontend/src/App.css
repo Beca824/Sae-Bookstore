@@ -1,3 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 body {
   background-color: #000; /* Set background color to black */
   color: #fff; /* Set text color to white for better contrast */
@@ -8,9 +23,16 @@ body {
 .App-header {
   background-color: #282c34;
   padding: 20px;
+  min-height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(11px + 3vmin);
   color: white;
   text-align: center;
 }
+
+
 
 h1, h2 {
   color: #fff;

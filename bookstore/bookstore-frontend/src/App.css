@@ -14,14 +14,14 @@
 }
 
 body {
-  background-color: #000; /* Set background color to black */
-  color: #fff; /* Set text color to white for better contrast */
+  background-color:maroon; /* Set background color to black */
+  color:white; /* Set text color to white for better contrast */
   margin: 5;
   font-family: Arial, sans-serif;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#252323;
   padding: 20px;
   display: flex;
   flex-direction: column;

@@ -1,18 +1,40 @@
 /* Home.css */
-.App-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-  }
-  
-  .App-content h2 {
-    font-size: 5em;
-    color: #333;
-  }
-  
-  .App-content p {
-    font-size: 1.2em;
-    line-height: 1.8;
-    color: #666;
-  }
-  
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  color: #333333;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+

@@ -3,16 +3,16 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 30px;
+  padding: 50px;
 }
 
 .book-item {
   background: #333;
-  padding: 20px;
-  border: 1px solid blue;
-  border-radius: 4px;
+  padding: 30px;
+  border: px solid blue;
+  border-radius: 2px;
   text-align: center;
-  width: 150px;
+  width: 170px;
   color:whitesmoke;
 }
 

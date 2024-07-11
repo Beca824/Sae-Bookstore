@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <div>
+    <div class="contact-container">
       <h2>Contact Us</h2>
       <p>Have questions or need assistance?</p>
       <p> You can reach us at +25482134567</p>

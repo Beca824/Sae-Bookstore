@@ -15,4 +15,23 @@
     line-height: 3.5;
     color: #666;
   }
+
   
+
+.contact-container {
+    text-align: center;
+    width: 90%;
+    height: 80%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container h1 {
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+    margin: 20px 0; 
+}

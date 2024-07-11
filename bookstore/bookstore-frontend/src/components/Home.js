@@ -2,7 +2,7 @@ import React from 'react';
 import AddBook from './AddBook';
 import './Home.css';
 
-function Home() {
+function Home({book}) {
   return (
     <div>
       <h1>Welcome to Home Page</h1>
@@ -11,8 +11,8 @@ function Home() {
       <div>
         <h2>Book List</h2>
         <ul>
-          <AddBook />
         </ul>
+        <AddBook />
       </div>
     </div>
   );

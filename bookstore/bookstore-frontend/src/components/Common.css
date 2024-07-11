@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .Navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  

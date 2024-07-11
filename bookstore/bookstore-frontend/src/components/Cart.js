@@ -1,24 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { fetchCart } from '../api';
-import './Cart.css';
+import React from 'react';
 
-const Cart = () => {
-  const [cart, setCart] = useState([]);
-
-  useEffect(() => {
-    fetchCart().then(response => setCart(response.data));
-  }, []);
-
+function Cart() {
   return (
     <div>
       <h1>Cart</h1>
-      <ul>
-        {cart.map(item => (
-          <li key={item.id}>{item.book.title} - {item.quantity}</li>
-        ))}
-      </ul>
+      <p>Add to cart.</p>
     </div>
   );
-};
+}
 
 export default Cart;
+

@@ -3,7 +3,7 @@ from .models import Book, Transaction, Cart
 
 @admin.register(Book)
 class BookAdmin(admin.ModelAdmin):
-    list_display = ('title', 'author', 'price', 'stock', 'img_url')
+    list_display = ('title', 'author', 'price', 'stock', 'img_url', 'genre')
     search_fields = ('title', 'author')
     list_filter = ('author',)
 

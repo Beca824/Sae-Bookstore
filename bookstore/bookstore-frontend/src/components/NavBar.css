@@ -1,17 +1,20 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #444;
-  padding: 1rem;
+  padding: 0.2rem; 
+  gap: 0rem;
 }
+
 
 .nav-button {
   color: white;
+  text-align: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  border: 1px solid transparent;
-  border-radius: 2px;
-  transition: background-color 0.3s, border 0.3s;
+  padding: 0.5rem 0.1rem;
+  border: 5px ;
+  border-radius: 1px;
+  transition: background-color 0.3s, border 0.5s;
 }
 
 .nav-button:hover {

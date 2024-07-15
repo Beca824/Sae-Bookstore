@@ -9,21 +9,34 @@ class Book(models.Model):
     img_url = models.CharField(max_length=500, default="https://www.pinterest.com/")  # URL as a string
     genre = models.CharField(max_length=100, default="Python")
 
+
     def __str__(self):
         return self.title
+    
+    def save(self, *args, **kwargs):
+        # Custom logic here
+        print("Custom save logic here")
+        super(Book, self).save(*args, **kwargs)
+
+    def delete(self, *args, **kwargs):
+        # Custom logic here
+        print("Custom delete logic here")
+        super(Book, self).delete(*args, **kwargs)
 
 class Transaction(models.Model):
     TRANSACTION_TYPES = [
         ('credit', 'Credit'),
         ('cash', 'Cash'),
     ]
+# choices=TRANSACTION_TYPES
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
-    transaction_type = models.CharField(max_length=6, choices=TRANSACTION_TYPES)
+    transaction_type = models.CharField(max_length=20, choices=TRANSACTION_TYPES)
     quantity = models.PositiveIntegerField()
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return f"{self.transaction_type} - {self.book.title}"
+    
 
 class Cart(models.Model):
     book = models.ForeignKey(Book, on_delete=models.CASCADE)
@@ -32,3 +45,5 @@ class Cart(models.Model):
 
     def __str__(self):
         return f"{self.book.title} - {self.quantity}"
+    
+     
